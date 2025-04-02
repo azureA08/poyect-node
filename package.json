@@ -1,0 +1,30 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "App.js",
+  "scripts": {
+    "test": "mocha tests/*.test.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "expres": "^0.0.5",
+    "express": "^4.21.2",
+    "mongoose": "^5.13.23",
+    "socket.io": "^4.8.1",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^4.6.3"
+  },
+  "devDependencies": {
+    "chai": "^4.5.0",
+    "chai-http": "^4.3.0",
+    "mocha": "^9.2.2",
+    "supertest": "^6.3.4"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "description": ""
+}
